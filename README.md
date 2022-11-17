@@ -1,4 +1,5 @@
 # Housing_Price_Analysis
+<<<<<<< HEAD
 ## Background of the Project
 Canada is one of the top real estate market in world. The aftermath of covid pandemic and economic downturn has slowed down real estate market of Canada with declining sales in 2022. However, real estate market in Canada is very competitive and is often considered by majority of people as best long term investment.
 
@@ -33,3 +34,16 @@ In this project, we will
 - 
 
 ## Machine Learning Model
+=======
+Analysis of Canadian housing market
+
+
+## Machine Learning Model
+A multivariate regression model will be run to analyse the effect of different variables like mortgage rate, immigration, and housing price index to determine house prices
+
+## Technology
+
+-Git Bash
+
+
+>>>>>>> ec8901ad8168b6462f0e60fd687d689be9471266
