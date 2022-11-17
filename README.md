@@ -1,4 +1,7 @@
 # Housing_Price_Analysis
+
+![house](https://user-images.githubusercontent.com/108366412/202578852-4a87745b-9a9a-4e15-a6e1-f992e4395957.jpg)
+
 <<<<<<< HEAD
 ## Background of the Project
 Canada is one of the top real estate market in world. The aftermath of covid pandemic and economic downturn has slowed down real estate market of Canada with declining sales in 2022. However, real estate market in Canada is very competitive and is often considered by majority of people as best long term investment.
@@ -15,6 +18,7 @@ In this project, we will
 - Create a visualization of the results
 
 ## Tools and Technologies used
+- Git Bash
 - Python 3.7
 - Jupyter Notebook
 - PostgreSQL
@@ -33,17 +37,6 @@ In this project, we will
 - Prime lending rate is used for all region
 - 
 
-## Machine Learning Model
-=======
-Analysis of Canadian housing market
-
 
 ## Machine Learning Model
 A multivariate regression model will be run to analyse the effect of different variables like mortgage rate, immigration, and housing price index to determine house prices
-
-## Technology
-
--Git Bash
-
-
->>>>>>> ec8901ad8168b6462f0e60fd687d689be9471266
