@@ -1,6 +1,6 @@
 # Housing_Price_Analysis
 
-![house_img](https://user-images.githubusercontent.com/108366412/202577763-056de604-4525-42fc-a831-b008f59a8db5.jpg)
+![house](https://user-images.githubusercontent.com/108366412/202578852-4a87745b-9a9a-4e15-a6e1-f992e4395957.jpg)
 
 <<<<<<< HEAD
 ## Background of the Project
