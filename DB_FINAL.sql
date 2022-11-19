@@ -18,18 +18,11 @@ Date DATE NOT NULL,
 Immigrants FLOAT NOT NULL,
 	PRIMARY KEY (Date)
 );
-DROP TABLE final_database;
-
-
-SELECT *
-FROM house_price;
-SELECT *
-FROM immigrants;
 
 -- Creating final database from three tables
 SELECT house_price.Date,house_price.Composite_HPI_SA,house_price.Composite_Benchmark_SA,
 mortgage_rates.Rate,immigrants.immigrants
---INTO Final_Database
+INTO Final_Database
 FROM house_price
 RIGHT JOIN mortgage_rates 
 	ON (house_price.Date=mortgage_rates.Date)
