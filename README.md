@@ -16,7 +16,7 @@ In this project, we will
 - Perform Exploratory Data analysis on the datasets
 - Create a machine learning model and estimate accuracy
 - Create a visualization of the results
-- Create [Google Slides] (https://docs.google.com/presentation/d/17urz7OMdW8Qi5NzWePaZ6ScvPWxBlKx10AwSCiOk1jo/edit#slide=id.g17505948ed0_0_140)
+- Create [Google Slides](https://docs.google.com/presentation/d/17urz7OMdW8Qi5NzWePaZ6ScvPWxBlKx10AwSCiOk1jo/edit#slide=id.g17505948ed0_0_140)
 ## Tools and Technologies used
 - Git Bash
 - Python 3.7
