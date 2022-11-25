@@ -43,5 +43,5 @@ In this project, we will
 - Prime lending rate is used for all region
 
 ## Machine Learning Model
-A multivariate regression model will be run to analyse the effect of different variables like mortgage rate, immigration, and housing price index to determine house prices
+A linear regression model was run on the data from which we got a R-squared value of 0.94358
 
