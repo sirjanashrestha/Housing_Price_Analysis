@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+Maritime.csv
+Maritime_Region.ipynb
+Machine_Learning_Model.ipynb
+QuickDBD-export.png
 
 # C extensions
 *.so
