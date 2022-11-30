@@ -5,19 +5,20 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Canadian House Price Analysis</title>
+   <title>Housing Stats</title>
    <link
    rel="stylesheet"
    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
    crossorigin="anonymous"
    />
+   <link rel="stylesheet" href="static/css/style.css">
 </head>
-<link rel="stylesheet" href="static/css/style.css">
+
 <body>
    <div class="wrapper">
       <div class="jumbotron">
-         <h1 class="display-4">Canadian House Price Analysis</h1>
+         <h1 class="display-4">Canadian Housing Price Analysis</h1>
       </div> 
       <div class="container-fluid">
          <div class="row">
@@ -31,7 +32,7 @@
 
                    "The release of this analysis is well-timed: It contains various factors which has impacted the Canadian house prices for last various years. This include Time, Average house prices, mortgage rates, immigrants and composite HPI."
                    <br><br>
-                   Below charts will display the changing house prices data 2005 to 2012 along with other factors which has directly or indirectly affected the price to rise and fall.
+                   Below charts will display the changing house prices data 2005 to 2022 along with other factors which has directly or indirectly affected the price to rise and fall.
                    <br> 
                </p>
            </div>
@@ -39,8 +40,19 @@
       </div>
       
       <div>
-         <center><iframe src="C:\Users\priya\OneDrive\Desktop\Data_Analysis_Class\Housing_Price_Analysis\Visualization\charts.html" height="400" width="700"frameborder="0"></iframe></center>
-      </div>      
+         <div class="row">
+            <div class="column">
+               <img src='my_lineplot.png' alt="Line Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <img src='my_hist.png' alt="Histograph Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <iframe src="C:\Users\priya\OneDrive\Desktop\Data_Analysis_Class\Housing_Price_Analysis\Visualization\charts.html" height="600" width="700"frameborder="0"></iframe>
+            </div>
+         </div>
+      </div>
+         <center></center>     
 
       <div class="col-md-9">
          <table class="table table-striped">
