@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Housing Stats</title>
+   <link
+   rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+   crossorigin="anonymous"
+   />
+   <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="col-md-12 jumbotron text-center">
+         <h1 class="display-4">Canadian Housing Price Analysis</h1>
+      </div> 
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-4">
+                 <h3 style="background-color:white;font-size:24px;">Canadian House Prices: Will House Price Rise or Drop? <br>
+                  <small>Analysis is here</small></h3>
+            </div>
+            <div class="col-md-8">
+               <p style="color:whitesmoke; font-size:24px;">
+                  Canada is one of the top real estate market in world. The aftermath of covid pandemic and economic downturn has slowed down real estate market of Canada with declining sales in 2022. However, real estate market in Canada is very competitive and is often considered by majority of people as best long term investment.<br><br>
+
+
+                   "The release of this analysis is well-timed It contains various factors which has impacted the Canadian house prices for last various years. This include Time, Average house prices, mortgage rates, immigrants and composite HPI."
+                   <br><br>
+                   Below charts will display the changing house prices data from 2005 to 2022 along with other factors which has directly or indirectly affected the price to rise and fall.
+                   <br> 
+               </p>
+           </div>
+         </div>
+      </div> 
+      <div>
+         <div class="row">
+            <div class="column">
+               <img src='my_lineplot.png' alt="Line Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <img src='my_hist.png' alt="Histograph Graph" style="width:700px;height:400px;">
+            </div>
+            <div class="column">
+               <iframe src="C:\Users\priya\OneDrive\Desktop\Data_Analysis_Class\Housing_Price_Analysis\Visualization\charts.html" height="600" width="700"frameborder="0"></iframe>
+            </div>
+         </div>
+      </div>
+         <center></center>     
+
+      <div class="col-md-9">
+         <table class="table table-striped">
+            <tr>
+               <th>Date</th>
+               <th>Composite_hpi_sa</th>
+               <th>Composite_benchmark_sa</th>
+               <th>mortgage_rate</th>
+               <th>immigrants</th>
+            </tr>
+            {% for i in data %}
+            <tr>
+               <td>{{ i[0] }}</td>
+               <td>{{ i[1] }}</td>
+               <td>{{ i[2] }}</td>
+               <td>{{ i[3] }}</td>
+               <td>{{ i[4] }}</td>
+             </tr>
+            {% endfor %}
+            <thead>
+            </thead>
+            <tbody>
+            </tbody>
+         </table>
+       </div>
+   </div>
+
+
+   </div>
+
+</body>
+</html>
