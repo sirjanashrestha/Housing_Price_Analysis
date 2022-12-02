@@ -6,10 +6,6 @@
 ## Background of the Project
 Canada is one of the top real estate market in world. The aftermath of covid pandemic and economic downturn has slowed down real estate market of Canada with declining sales in 2022. However, real estate market in Canada is very competitive and is often considered by majority of people as best long term investment.
 
-## Communication
-
-For communicating between the four members in our team, we created a Slack channel in which we make sure we assign daily tasks, discuss issues, and provide updates on tasks on hand. We also plan to conduct Zoom video calls to discuss key deliverables like Machine Learning Model results and Visualisation.
-
 ## Problem Statement
 In this project, we will
 - Analyse the relation of house prices with various factors such as  year, region, immigration and lending rate
