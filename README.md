@@ -19,6 +19,7 @@ In this project, we will
 - Create a machine learning model and estimate accuracy
 - Create a visualization of the result and display on webpage.
 - Create [Google Slides](https://docs.google.com/presentation/d/17urz7OMdW8Qi5NzWePaZ6ScvPWxBlKx10AwSCiOk1jo/edit#slide=id.g17505948ed0_0_140)
+
 ## Tools and Technologies used
 - Git Bash
 - Python 3.7
@@ -29,8 +30,14 @@ In this project, we will
     - SciPy
     - Scikit Learn
 - Machine learning algorithm: Linear regression
+- Visualisation: Plotly, Json, Javascript, HTML, seaborn
+
+## ERD Schema
+![ERD diagram](https://user-images.githubusercontent.com/108366412/205193712-24614d09-6b1f-42c7-ae5b-ad0b7c8e4512.png)
 
 ## Datasets
+![Final_Data](https://user-images.githubusercontent.com/108366412/205194249-444d2bda-9b2d-4c73-a2b5-ce9bd7c89cf9.png)
+
 - Features of model: Lending Rate, Immigration, Region, Year
 - Target variable: Price
 - Timeframe of analysis: January 2005-September 2022
