@@ -21,7 +21,7 @@ In this project, we will
 - Clean and merge data to create final database
 - Perform Exploratory Data analysis on the datasets
 - Create a machine learning model and estimate accuracy
-- Create a visualization of the results using [Tableau](https://public.tableau.com/app/profile/priyanka.shetye7842/viz/HousingPriceAnalysisDashboard/CanadianHousingPriceAnalysis?publish=yes)
+- Create a visualization of the result and display on webpage.
 - Create [Google Slides](https://docs.google.com/presentation/d/17urz7OMdW8Qi5NzWePaZ6ScvPWxBlKx10AwSCiOk1jo/edit#slide=id.g17505948ed0_0_140)
 ## Tools and Technologies used
 - Git Bash
@@ -43,5 +43,8 @@ In this project, we will
 - Prime lending rate is used for all region
 
 ## Machine Learning Model
-A linear regression model was run on the data from which we got a R-squared value of 0.94358
+Linear Regression Model is used as we are predicting house price based on a combination of input variables like interest rate, immigrant population. The model was selected as it can be implemented, trained and interpret easily. 
+Following results were acheived from the model
+* **R-squared: 0.94358**
+* **Mean squared error:  745478395.75**
 
