@@ -1,4 +1,4 @@
-Archive
+Archive/**
 Visualization/static/css/.Rhistory
 Visualization/.DS_Store
 images/.DS_Store
@@ -7,3 +7,4 @@ Visualization/static/css/.DS_Store
 Visualization/static/.DS_Store
 Visualization/static/images/.DS_Store
 .DS_Store
+.ipynb_checkpoints
