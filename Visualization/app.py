@@ -32,7 +32,7 @@ def getresults():
 
     test_data=np.array([[rate,date,immigrants]]).reshape(1,3)
 
-    prediction = model.predict(test_data)[0]
+    prediction = int(model.predict(test_data)[0])
 
     results_dict= {"prediction":(prediction)}
 
