@@ -12,7 +12,7 @@
    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
    crossorigin="anonymous"
    />
-   <link rel="stylesheet" href="/static/css/style.css">
+   <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
    <div class="wrapper">
       <div class="jumbotron">
          <h1 class="display-4">Canadian Housing Price Analysis</h1>
-         <div style="background-image: url('../Static/Images/New_Background.jpeg');
+         <div style="background-image: url('/static/Images/New_Background.jpeg');
          background-size: cover; height: 500px; padding-inline: 120px; background-position: center;">
          </div>
       </div> 
@@ -54,22 +54,22 @@
                <iframe src="C:\Users\priya\OneDrive\Desktop\Data_Analysis_Class\Housing_Price_Analysis\Visualization\charts.html" height="600" width="700"frameborder="0"></iframe>
             </div>
             <div class="column">
-               <img src='my_hist.png' alt="Histograph Graph" style="width:800px;height:400px;">
+               <img src='/static/Images/my_hist.png' alt="Histograph Graph" style="width:800px;height:400px;">
             </div>
             <div class="column">
-               <img src='my_lineplot.png' alt="Line Graph" style="width:700px;height:400px;">
+               <img src='/static/Images/my_lineplot.png' alt="Line Graph" style="width:700px;height:400px;">
             </div>
             <div class="column">
-               <img src='Region.png' alt="Line Graph" style="width:700px;height:400px;">
+               <img src='/static/Images/Region.png' alt="Line Graph" style="width:700px;height:400px;">
             </div>
          </div>
       </div>
          <center></center> 
          
       <div class="container">
-         <h1 style="text-align:center;">Click Prediction Button to predict approximate house price for next 5 years</h1>
-         <form action= "http://127.0.0.1:5000/predict" method="POST"">
-            <button class="btn btn-danger btn-lg">Click</button>
+         <h1 style="text-align:center;">Click Prediction Button to predict approximate house price </h1>
+         <form action= "http://127.0.0.1:5000/predict" method="POST">
+            <button class="btn btn-danger btn-lg">Prediction</button>
          </form>
       </div>
 
