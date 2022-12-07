@@ -45,6 +45,16 @@ In this project, we will
 ## Assumptions
 - Prime lending rate is used for all region
 
+## Visualization
+
+![webpage5](https://user-images.githubusercontent.com/108366412/205196546-4226030e-0462-4ee1-84a8-bf2d273bd3f0.png)
+
+![webpage2](https://user-images.githubusercontent.com/108366412/205196526-cb3b3af7-5669-4ed2-abf9-24ed0dc6e6c9.png)
+
+![webpage3](https://user-images.githubusercontent.com/108366412/205196565-8389a5a0-9f77-44dc-8e7b-e4d96c53479f.png)
+
+![webpage4](https://user-images.githubusercontent.com/108366412/205196574-eeb9b396-535b-41fe-ba15-d6ea768d30d4.png)
+
 ## Machine Learning Model
 Linear Regression Model is used as we are predicting house price based on a combination of input variables like interest rate, immigrant population. The model was selected as it can be implemented, trained and interpret easily. 
 Following results were acheived from the model
