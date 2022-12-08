@@ -61,3 +61,5 @@ Following results were acheived from the model
 * **R-squared: 0.94358**
 * **Mean squared error:  745478395.75**
 
+[Link to video of dashboard](https://drive.google.com/file/d/1LkXaRTK2GIWdTqEQUBEOD_eCigLtQAXK/view)
+
